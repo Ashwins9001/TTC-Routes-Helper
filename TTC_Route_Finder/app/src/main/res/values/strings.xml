@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">retroFitTest</string>
+    <string name="loading_ttc_data">Loading TTC Data</string>
+</resources>

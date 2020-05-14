@@ -1,0 +1,14 @@
+CREATE TABLE users(
+    id int NOT NULL AUTO_INCREMENT,
+    email varchar(300) NOT NULL,
+    password varchar(300) NOT NULL,
+    balance double(6,2) NOT NULL
+    first_name varchar(300) NOT NULL,
+    last_name varchar(300) NOT NULL,
+    CONSTRAINT key PRIMARY KEY (id)
+     
+);
+
+INSERT INTO users (email, password, balance, first_name, last_name)
+VALUES ('ashwins@gmail.com, ilovepizza, 23.50, ashwin, singh);
+
